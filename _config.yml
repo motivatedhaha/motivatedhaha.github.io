@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+title: Young Blog
+SEOTitle: 一座奇怪的小岛 | Young Blog
+header-img: img/about-bg.jpg
+email: 2409954636@qq.com
+description: "始终在寻找属于自己的路 | Young，Software Lover"
+keyword: "Young, Young Blog, 博客, 个人网站, 互联网, Web, AI, 深度学习, 设计"
+url: "https://movivatedhaha.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+weibo_username:     超爱玩的昊
+#zhihu_username:     
+github_username:    motivatedhaha
+#twitter_username:   huxpro
+bilibili_username:  adoubiyoung
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +60,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: SwagYoung
 
 # Netease settings
 netease_comment: false
@@ -68,18 +69,18 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-# ba_track_id: [your track id]
+ba_track_id: 0a923666397825661cef474fb8d90be3
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-164935084-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Why so serious?<br>乌鸦坐飞机"
+sidebar-avatar: /img/下载.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,34 +104,36 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "Sherry Wu",
-        href: "https://xuechundesign.github.io"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    }
-]
+        title: "Adoubiyoung",
+        href: "https://space.bilibili.com/402612133"
+     }
+     ]
+#    ,{
+#        title: "乱序",
+#       href: "http://mida.re/"
+#    },{
+#       title: "Sherry Wu",
+#       href: "https://xuechundesign.github.io"
+#   },{
+#       title: "Luke 的自留地",
+#      href: "http://hmqk1995.github.io"
+#   },{
+#       title: "Ebn's Blog",
+#       href: "http://ebnbin.com/"
+#   },{
+#       title: "SmdCn's Blog",
+#       href: "http://blog.smdcn.net"
+#    },{
+#        title: "JiyinYiyong",
+#       href: "http://tiye.me/"
+#    },{
+#        title: "David's Game",
+#        href: "https://www.ruoyaowu.com/"
+#   },{
+#       title: "DHong Say",
+#       href: "http://dhong.co"
+#   },{
+#      title: "尹峰以为",
+#      href: "http://ingf.github.io/"
+#  }
+
