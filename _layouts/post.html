@@ -135,28 +135,24 @@ layout: default
 {% endif %}
 
 <!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
+
 <!-- Link Gitalk 的支持文件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
 
     // gitalk的主要参数
-        clientID: `5ac41d4e8748cd094059`,
-        clientSecret: `93dd5e6ba3fd1666683ee34dde57353084d2a4d5`,
-        repo: `motivatedhaha.github.io`,
-        owner: 'motivatedhaha',
-        admin: ['motivatedhaha'],
-        id: 'window.location.pathname',
-        distractionFreeMode: true,
+		clientID: `5ac41d4e8748cd094059`,
+		clientSecret: `93dd5e6ba3fd1666683ee34dde57353084d2a4d5`,
+		repo: `motivatedhaha.github.io`,
+		owner: 'motivatedhaha',
+		admin: ['motivatedhaha'],
+		id: 'window.location.pathname',
     
     });
     gitalk.render('gitalk-container');
-</script>
-{% endif %}
+</script> 
 <!-- Gitalk end -->
 
 {% if site.anchorjs %}
